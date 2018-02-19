@@ -49,6 +49,24 @@ mass[i].toFixed(2);
 
 }
 
+//Rendezes (cserés)
+
+function rendez(){
+for(var i=0; i<jsonfile.length-1;i++){
+    for(var j=i+1; j<i; j++){
+        if(jsonfile[i].id>jsonfile[j].id){
+            var temp = jsonfile[i];
+            jsonfile[i] = jsonfile[j];
+            jsonfile[j]=temp;
+
+        }
+
+    }
+}
+}
+
+
+
 
 function tomeg(){
 var osszeg=0;

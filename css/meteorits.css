@@ -1,0 +1,31 @@
+body{
+
+position:absolute;
+top:50%;
+left:50%;
+ transform: translate(-50%, -50%);
+ background: beige;
+}
+
+
+
+
+h1{
+font-size: 22px;
+font-family: 'Courier New', Courier, monospace;
+
+
+
+}
+
+h1:hover{
+    font-size: 25px;
+    color:blue;
+
+
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
